@@ -1,6 +1,28 @@
 .App {
   text-align: center;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  color: rgb(72, 68, 207);
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.spanWrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 img {
-  height: 100%;
+  max-height: 100vh;
+}
+.textWrapper {
+  border: 2px solid rgba(150, 150, 150, 1);
+  border-radius: 8px;
+  padding: 8px;
+  background-color: rgba(100, 100, 100, 0.8);
 }

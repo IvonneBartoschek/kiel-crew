@@ -4,11 +4,11 @@ import './App.css';
 
 function App() {
   const [showImage, setShowImage] = useState(true);
-  const [countDown, setCountdown] = useState(5);
+  const [countDown, setCountdown] = useState(10);
   useEffect(() => {
     const id = setTimeout(() => {
       setShowImage(false);
-    }, 5000);
+    }, 10000);
     return () => { clearTimeout(id); };
   }, []);
   useEffect(() => {

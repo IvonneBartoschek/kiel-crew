@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/kiel-crew/static/css/main.b8e839ce.chunk.css",
-    "main.js": "/kiel-crew/static/js/main.9113b40a.chunk.js",
-    "main.js.map": "/kiel-crew/static/js/main.9113b40a.chunk.js.map",
-    "runtime-main.js": "/kiel-crew/static/js/runtime-main.aed686dd.js",
-    "runtime-main.js.map": "/kiel-crew/static/js/runtime-main.aed686dd.js.map",
-    "static/js/2.091d3197.chunk.js": "/kiel-crew/static/js/2.091d3197.chunk.js",
-    "static/js/2.091d3197.chunk.js.map": "/kiel-crew/static/js/2.091d3197.chunk.js.map",
-    "static/js/3.0d41b319.chunk.js": "/kiel-crew/static/js/3.0d41b319.chunk.js",
-    "static/js/3.0d41b319.chunk.js.map": "/kiel-crew/static/js/3.0d41b319.chunk.js.map",
+    "main.css": "/kiel-crew/static/css/main.dc4eb534.chunk.css",
+    "main.js": "/kiel-crew/static/js/main.ca3be4c2.chunk.js",
+    "main.js.map": "/kiel-crew/static/js/main.ca3be4c2.chunk.js.map",
+    "runtime-main.js": "/kiel-crew/static/js/runtime-main.b8da1bc2.js",
+    "runtime-main.js.map": "/kiel-crew/static/js/runtime-main.b8da1bc2.js.map",
+    "static/js/2.fd448305.chunk.js": "/kiel-crew/static/js/2.fd448305.chunk.js",
+    "static/js/2.fd448305.chunk.js.map": "/kiel-crew/static/js/2.fd448305.chunk.js.map",
+    "static/js/3.27cd2c38.chunk.js": "/kiel-crew/static/js/3.27cd2c38.chunk.js",
+    "static/js/3.27cd2c38.chunk.js.map": "/kiel-crew/static/js/3.27cd2c38.chunk.js.map",
     "index.html": "/kiel-crew/index.html",
-    "static/css/main.b8e839ce.chunk.css.map": "/kiel-crew/static/css/main.b8e839ce.chunk.css.map",
-    "static/js/2.091d3197.chunk.js.LICENSE.txt": "/kiel-crew/static/js/2.091d3197.chunk.js.LICENSE.txt",
-    "static/media/kiel-crew.ca0772a1.jpg": "/kiel-crew/static/media/kiel-crew.ca0772a1.jpg",
-    "static/media/logo.6ce24c58.svg": "/kiel-crew/static/media/logo.6ce24c58.svg"
+    "static/css/main.dc4eb534.chunk.css.map": "/kiel-crew/static/css/main.dc4eb534.chunk.css.map",
+    "static/js/2.fd448305.chunk.js.LICENSE.txt": "/kiel-crew/static/js/2.fd448305.chunk.js.LICENSE.txt",
+    "static/media/kiel-crew.ca0772a1.jpg": "/kiel-crew/static/media/kiel-crew.ca0772a1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aed686dd.js",
-    "static/js/2.091d3197.chunk.js",
-    "static/css/main.b8e839ce.chunk.css",
-    "static/js/main.9113b40a.chunk.js"
+    "static/js/runtime-main.b8da1bc2.js",
+    "static/js/2.fd448305.chunk.js",
+    "static/css/main.dc4eb534.chunk.css",
+    "static/js/main.ca3be4c2.chunk.js"
   ]
 }

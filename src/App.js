@@ -34,8 +34,12 @@ function App() {
         :
         <iframe allow="camera; microphone; fullscreen; display-capture" src="https://meet.jit.si/kielcrew" style={{ "height": "100vh", "width": "100vw", "border": "0px" }}></iframe>
       }
+      {showImage && (<footer>
+        Mit <span>&hearts;</span> und &#127863; von Thobbe &#38; Yvi.
+   </footer>)}
     </div>
   );
 }
 
 export default App;
+

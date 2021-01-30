@@ -1,13 +1,28 @@
 import React, { useEffect, useState } from "react";
-import background from "./kiel-crew.jpg"
+import backgroundMobile from "./kiel-crew-mobile.JPG";
+import backgroundTablet from "./kiel-crew-tablet.JPG";
+import backgroundDesktop from "./kiel-crew.jpg";
+import { useWindowSize } from "./helper/windowSizeHook";
 import './App.css';
 
 function App() {
   const [showImage, setShowImage] = useState(true);
   const [countDown, setCountdown] = useState(10);
+  const { isMobile, isTablet, isDesktop } = useWindowSize();
+  const getBackground = () => {
+    let background = backgroundMobile;
+    if (isTablet) {
+      background = backgroundTablet;
+    }
+    if (isDesktop) {
+      background = backgroundDesktop;
+    }
+    return background;
+  };
+  const background = getBackground();
   useEffect(() => {
     const id = setTimeout(() => {
-      setShowImage(true);
+      setShowImage(false);
     }, 10000);
     return () => { clearTimeout(id); };
   }, []);
@@ -35,7 +50,7 @@ function App() {
       }
       {showImage && (<footer>
         Mit <span>&hearts;</span> und &#127863; von Thobbe &#38; Yvi.
-   </footer>)}
+      </footer>)}
     </div>
   );
 }

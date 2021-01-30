@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import image from './kiel-crew.jpg';
+import background from "./kiel-crew.jpg"
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   const [countDown, setCountdown] = useState(10);
   useEffect(() => {
     const id = setTimeout(() => {
-      setShowImage(false);
+      setShowImage(true);
     }, 10000);
     return () => { clearTimeout(id); };
   }, []);
@@ -21,16 +21,15 @@ function App() {
   }, [countDown]);
   return (
     <div className="App">
-      {showImage && (
-        <div className="spanWrapper">
-          <div className="textWrapper">
-            <p>Unser Meeting beginnt in:</p>
-            <p>{countDown}</p>
+      {showImage ?
+        <div className="img" style={{ backgroundImage: `url(${background})` }}>
+          <div className="spanWrapper">
+            <div className="textWrapper">
+              <p>Unser Meeting beginnt in:</p>
+              <p>{countDown}</p>
+            </div>
           </div>
         </div>
-      )}
-      {showImage ?
-        <img src={image} alt="" />
         :
         <iframe allow="camera; microphone; fullscreen; display-capture" src="https://meet.jit.si/kielcrew" style={{ "height": "100vh", "width": "100vw", "border": "0px" }}></iframe>
       }
